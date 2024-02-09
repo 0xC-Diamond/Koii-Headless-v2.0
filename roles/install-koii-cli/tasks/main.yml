@@ -1,0 +1,11 @@
+---
+- name: install/update koii-cli
+  become_user: "{{ koii_user }}"
+  shell: sh -c "$(curl -sSfL https://raw.githubusercontent.com/koii-network/k2-release/master/k2-install-init.sh)"
+
+- name: Ensure PATH for koii is set in .bashrc
+  lineinfile:
+    path: /home/{{ koii_user }}/.bashrc
+    line: 'export PATH="/home/{{ koii_user }}/.local/share/koii/install/active_release/bin:$PATH"'
+    regexp: '^export PATH="/home/{{ koii_user }}/.local/share/koii/install/active_release/bin:$PATH"'
+    insertafter: EOF
