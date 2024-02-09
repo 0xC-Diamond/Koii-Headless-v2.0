@@ -1,0 +1,4 @@
+all:
+  hosts:
+    koii-headless:
+      ansible_host: 51.159.34.244

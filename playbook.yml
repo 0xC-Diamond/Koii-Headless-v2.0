@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  gather_facts: no
+  roles:
+    - install-docker
+    - install-koii-cli
+    - install-koii-node
+    - install-create-task-cli
