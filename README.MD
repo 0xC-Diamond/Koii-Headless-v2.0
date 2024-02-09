@@ -99,6 +99,8 @@ Verify whether all is good and the task are performing action and there is no er
 docker logs -f --tail 10 task_node
 ```
 
+CONGRATULATIONS!
+
 ## How to interact now with the running Node?
 
 execute the command 'create-task-cli' and you will see an interactive menu
