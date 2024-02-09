@@ -1,4 +1,5 @@
-# Koii-Headless
+# Koii-Headless-v2.0
+Big thanks for /schmiatz/koii-headless.git created project, as I have been creating a multiple KOII NODES previously, since recently it disappeared, I am returning it back with improvements.
 
 ## What does this Repo?
 
