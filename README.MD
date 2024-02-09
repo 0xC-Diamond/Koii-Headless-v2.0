@@ -127,8 +127,10 @@ FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID
 5aU9fdhjpe2sZKzZ858tV1ZDGjht1Q1UQewEphdo5meZ represents the Wallet that will receive the claimed Coins   
 /home/koii/koii-node/namespace/staking_wallet.json represents the default path to your staking wallet   
 
-Tasks IDs for different tasks running on nodes:
+## Tasks IDs for different tasks running on nodes:
+
 Task name	Task ID
+
 Free Token Task!	AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3 
 Arweave Verifier	BwwkRHB1GVWvVDbdXfUobRFLfz7wz6tz2u2W8mKCUjsj 
 Inflation Monitoring	EN4CA8EuLzUJGDC8p6WwCqCniwGB99sXh7Ma2WBKDL9o 
