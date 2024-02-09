@@ -66,9 +66,14 @@ cd koii-headless
 ansible-playbook playbook.yml
 ```
 ## And Now?
-
-- Update the '.env.local File like its described here https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS
-
+- Update the '.env-local File like its described here https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS
+First of all initially created file are called '.env.local.example'
+```
+cd koii-node
+.env.local.example mv .env-local
+nano .env-local
+```
+## Finally it is time for the LAUNCH: 3...2...1...GO!
 Switch into the Repo and execute 'docker compose up -d'
 ```
 cd koii-node 
