@@ -93,6 +93,12 @@ Switch into the Repo and execute 'docker compose up -d'
 cd koii-node 
 docker compose up -d
 ```
+
+Verify whether all is good and the task are performing action and there is no errors:
+```
+docker logs -f --tail 10 task_node
+```
+
 ## How to interact now with the running Node?
 
 execute the command 'create-task-cli' and you will see an interactive menu
@@ -111,13 +117,13 @@ execute the command 'create-task-cli' and you will see an interactive menu
 Calling ClaimReward
 ✔ Enter the task id … AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3
 ✔ Enter the stakePotAccount address … FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d
-✔ Enter the beneficiaryAccount address (Address that the funds will be transferred to) … 913eaKzZJNMNCEj3KPSJqjXRiDH5WMngXSnLfhgDZSAE
+✔ Enter the beneficiaryAccount address (Address that the funds will be transferred to) … 5aU9fdhjpe2sZKzZ858tV1ZDGjht1Q1UQewEphdo5meZ
 ✔ Enter the path to Claimer wallet … /home/koii/koii-node/namespace/staking_wallet.json
 Success
 ```
 AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3 represents the Task ID   
 FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID   
-913eaKzZJNMNCEj3KPSJqjXRiDH5WMngXSnLfhgDZSAE represents the Wallet that will receive the claimed Coins   
+5aU9fdhjpe2sZKzZ858tV1ZDGjht1Q1UQewEphdo5meZ represents the Wallet that will receive the claimed Coins   
 /home/koii/koii-node/namespace/staking_wallet.json represents the default path to your staking wallet   
 
 Tasks IDs for different tasks running on nodes:
@@ -130,5 +136,7 @@ Adot Search AI	5hoMYrrdPQneqsQyRGzmoHvKEbR5kA1dN6jdUWFnhgVH
 #koii Twitter Archive	9Vfa7Jowd3q7xdiV4hSZt1t5L9PWXjFWb6VuLbUXPwUS
 Archive Twitter	Hcpv6q57mcG9fGca9xMoivMuCVNWZd9atxRQfcde6Edb
 Mask Social Feeds	7NvPT3RC24NhgMZZSW1Ke5WKcVLwQgwRbYfVYsvkJobH
+
+
 
 Thats it, have fun
