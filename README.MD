@@ -48,10 +48,11 @@ echo "koii_user: koii" > group_vars/all.yml
 
 Put your Koii-Headless Server IP in the inventory.yml file. 
 
-nano inventory.yml
 NB! uncomment last 2 lines, so it is according to the following:
 Example for a Server Named "koii-headless" with an IP-Address "192.168.1.10":   
 ```
+nano inventory.yml
+
 all:
   hosts:
     koii-headless:
@@ -59,13 +60,20 @@ all:
 ```
 
 ### Execute the Playbook
-'cd' into the Repo and exectute the command 'ansible-playbook playbook.yml'
-
+Switch into the Repo and exectute the command 'ansible-playbook playbook.yml'
+```
+cd koii-headless
+ansible-playbook playbook.yml
+```
 ## And Now?
 
 - Update the '.env.local File like its described here https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS
-- 'cd' into the Repo and execute 'docker compose up -d'
 
+Switch into the Repo and execute 'docker compose up -d'
+```
+cd koii-node 
+docker compose up -d
+```
 ## How to interact now with the running Node?
 
 execute the command 'create-task-cli' and you will see an interactive menu
