@@ -1,0 +1,35 @@
+---
+- name: update apt and install requirements
+  apt:
+    name: "{{ item }}"
+    state: latest
+    update_cache: yes
+  with_items:
+    - apt-transport-https
+    - ca-certificates
+    - curl
+    - software-properties-common
+
+- name: ensure Docker Repos GPG Key is added
+  apt_key:
+    url: https://download.docker.com/linux/ubuntu/gpg
+    state: present
+
+- name: ensure Docker Repo is added
+  apt_repository:
+    repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+    state: present
+
+- name: ensure Docker and Docker Compose is installed
+  apt:
+    name: "{{ item }}"
+    state: latest
+  with_items: 
+    - docker-ce
+    - docker-compose-plugin
+
+- name: adding Users to the Docker Group
+  user:
+    name: "{{ koii_user }}"
+    groups: docker
+    append: yes
