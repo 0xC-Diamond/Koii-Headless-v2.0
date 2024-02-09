@@ -1,0 +1,12 @@
+---
+- name: Git Clone the Koii Repo
+  ansible.builtin.git:
+    repo: https://github.com/koii-network/task-template.git
+    dest: /home/{{ koii_user }}/koii-node
+
+- name: assure koii user has permissions to interact with the Repo
+  file:
+    path: "/home/{{ koii_user }}/koii-node"
+    owner: "{{ koii_user }}"
+    group: "{{ koii_user }}"
+    recurse: yes
