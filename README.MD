@@ -73,6 +73,18 @@ cd koii-node
 .env.local.example mv .env-local
 nano .env-local
 ```
+## Create a wallet and top up with some KOII from the faucet
+Suggest to use guide here: https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS#set-up-new-koii-pubkey
+
+Then you will have your new pubkey, **transfer some tokens to this account using [Finnie Wallet](https://chromewebstore.google.com/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj)**.
+
+Use some FileManager to connect to your VPS and download id.json file and make an “Import a key file” in the Finnie Wallet settings page. In order to have your Main node wallet right in front of you if you would like to check the Balance/Transfer KOII without going into the VPS server.
+
+Test Koii wallet Balance: 
+```
+koii -u [https://testnet.koii.live](https://testnet.koii.live/) balance
+```
+
 ## Finally it is time for the LAUNCH: 3...2...1...GO!
 Switch into the Repo and execute 'docker compose up -d'
 ```
@@ -105,5 +117,16 @@ AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3 represents the Task ID
 FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID   
 913eaKzZJNMNCEj3KPSJqjXRiDH5WMngXSnLfhgDZSAE represents the Wallet that will receive the claimed Coins   
 /home/koii/koii-node/namespace/staking_wallet.json represents the default path to your staking wallet   
+
+Tasks IDs for different tasks running on nodes:
+Task name	Task ID
+Free Token Task!	AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3 
+Arweave Verifier	BwwkRHB1GVWvVDbdXfUobRFLfz7wz6tz2u2W8mKCUjsj 
+Inflation Monitoring	EN4CA8EuLzUJGDC8p6WwCqCniwGB99sXh7Ma2WBKDL9o 
+Big Big Task	tqhFcPKvcWPagNWNEBC6LtpFujboi7FigVoVUw2Ph8n 
+Adot Search AI	5hoMYrrdPQneqsQyRGzmoHvKEbR5kA1dN6jdUWFnhgVH 
+#koii Twitter Archive	9Vfa7Jowd3q7xdiV4hSZt1t5L9PWXjFWb6VuLbUXPwUS
+Archive Twitter	Hcpv6q57mcG9fGca9xMoivMuCVNWZd9atxRQfcde6Edb
+Mask Social Feeds	7NvPT3RC24NhgMZZSW1Ke5WKcVLwQgwRbYfVYsvkJobH
 
 Thats it, have fun
