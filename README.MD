@@ -36,7 +36,7 @@ You need to specify the Variable `koii_user` in the cloned Repos group_vars/all.
 
 Git Clone this Repo:      
 ```
-git clone https://github.com/schmiatz/koii-headless.git
+git clone https://github.com/0xC-Diamond/Koii-Headless-v2.0.git
 ```
 
 Switch into the Repo and add your Ubuntu username into the group_vars:  
