@@ -66,7 +66,7 @@ cd koii-headless
 ansible-playbook playbook.yml
 ```
 ## And Now?
-- Update the '.env-local File like its described here https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS
+- Update the '.env-local File like its described here https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS under section: "2.Configure Environment Variables: "
 First of all initially created file are called '.env.local.example'
 ```
 cd koii-node
