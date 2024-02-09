@@ -39,14 +39,17 @@ Git Clone this Repo:
 git clone https://github.com/schmiatz/koii-headless.git
 ```
 
-Switch into  the Repo and add your Ubuntu username into the group vars:  
-Example for the Username "koii"
+Switch into the Repo and add your Ubuntu username into the group_vars:  
+Example: username "koii", replace it in the echo command!
 ```
 cd koii-headless
 echo "koii_user: koii" > group_vars/all.yml
 ```
 
-Put your Koii-Headless Server in the inventory.yml file.    
+Put your Koii-Headless Server IP in the inventory.yml file. 
+
+nano inventory.yml
+NB! uncomment last 2 lines, so it is according to the following:
 Example for a Server Named "koii-headless" with an IP-Address "192.168.1.10":   
 ```
 all:
