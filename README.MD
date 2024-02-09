@@ -131,10 +131,14 @@ FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID
 
 Task name	Task ID
 
-Free Token Task!	AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3
-Arweave Verifier	BwwkRHB1GVWvVDbdXfUobRFLfz7wz6tz2u2W8mKCUjsj
+-Free Token Task!	AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3
+
+-Arweave Verifier	BwwkRHB1GVWvVDbdXfUobRFLfz7wz6tz2u2W8mKCUjsj
+
 Inflation Monitoring	EN4CA8EuLzUJGDC8p6WwCqCniwGB99sXh7Ma2WBKDL9o 
+
 Big Big Task	tqhFcPKvcWPagNWNEBC6LtpFujboi7FigVoVUw2Ph8n 
+
 Adot Search AI	5hoMYrrdPQneqsQyRGzmoHvKEbR5kA1dN6jdUWFnhgVH 
 #koii Twitter Archive	9Vfa7Jowd3q7xdiV4hSZt1t5L9PWXjFWb6VuLbUXPwUS
 Archive Twitter	Hcpv6q57mcG9fGca9xMoivMuCVNWZd9atxRQfcde6Edb
