@@ -131,9 +131,9 @@ FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID
 
 Task name	Task ID
 
--Free Token Task!	AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3
+*Free Token Task!*	AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3
 
--Arweave Verifier	BwwkRHB1GVWvVDbdXfUobRFLfz7wz6tz2u2W8mKCUjsj
+Arweave Verifier	BwwkRHB1GVWvVDbdXfUobRFLfz7wz6tz2u2W8mKCUjsj
 
 Inflation Monitoring	EN4CA8EuLzUJGDC8p6WwCqCniwGB99sXh7Ma2WBKDL9o 
 
