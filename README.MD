@@ -42,7 +42,7 @@ git clone https://github.com/0xC-Diamond/Koii-Headless-v2.0.git
 Switch into the Repo and add your Ubuntu username into the group_vars:  
 Example: username "koii", replace it in the echo command!
 ```
-cd koii-headless-v2.0
+cd Koii-Headless-v2.0
 echo "koii_user: koii" > group_vars/all.yml
 ```
 
@@ -62,7 +62,7 @@ all:
 ### Execute the Playbook
 Switch into the Repo and exectute the command 'ansible-playbook playbook.yml'
 ```
-cd koii-headless-v2.0
+cd Koii-Headless-v2.0
 ansible-playbook playbook.yml
 ```
 ## And Now?
