@@ -131,6 +131,9 @@ CONGRATULATIONS!
 
 execute the command 'create-task-cli' and you will see an interactive menu
 ```
+create-task-cli
+```
+```
 ? Select operation › - Use arrow-keys. Return to submit.
 ❯   Create a new task
     update existing task
@@ -153,6 +156,13 @@ AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3 represents the Task ID
 FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID   
 5aU9fdhjpe2sZKzZ858tV1ZDGjht1Q1UQewEphdo5meZ represents the Wallet that will receive the claimed Coins   
 /home/koii/koii-node/namespace/staking_wallet.json represents the default path to your staking wallet   
+
+## Additional helpful commands you should know
+```
+koii -u https://testnet.koii.live balance
+koii --version
+koii address
+```
 
 ## Tasks IDs for different tasks running on nodes:
 
