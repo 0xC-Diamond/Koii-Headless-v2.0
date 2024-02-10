@@ -55,7 +55,7 @@ nano inventory.yml
 
 all:
   hosts:
-    koii-headless:
+    koii-headless-v2.0:
       ansible_host: 192.168.1.10
 ```
 
