@@ -77,6 +77,12 @@ How do I check the permissions and ownership of the authorized_keys file
 ```
 ls -l ~/.ssh/authorized_keys
 ```
+If you have configured and allowed the ssh for the user, try reboot the server first
+```
+sudo reboot
+```
+
+
 ### Execute the Playbook
 Switch into the Repo and exectute the command 'ansible-playbook playbook.yml'
 ```
