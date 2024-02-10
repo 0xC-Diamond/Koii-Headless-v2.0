@@ -107,10 +107,6 @@ Then you will have your new pubkey, **transfer some tokens to this account usin
 
 *Suggestion*: Use some FileManager to connect to your VPS and download id.json file and make an “Import a key file” in the Finnie Wallet settings page. In order to have your Main node wallet right in front of you if you would like to check the Balance/Transfer KOII without going into the VPS server.
 
-Test Koii wallet Balance: 
-```
-koii -u https://testnet.koii.live/ balance
-```
 **Make sure that you have a $KOII Balance in your wallet before proceeding, so the Staking account can be created and transactions can go through**
 
 ## Finally it is time for the LAUNCH: 3...2...1...GO!
