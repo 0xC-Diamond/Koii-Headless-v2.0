@@ -98,6 +98,8 @@ cd koii-node
 mv .env.local.example .env-local
 nano .env-local
 ```
+Now adjust the file according to the Running-on-VPS guide!
+
 ## Create a wallet and top up with some KOII from the faucet OR use existing wallet key file(id.json)
 Suggest to use guide here: https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS#set-up-new-koii-pubkey
 
