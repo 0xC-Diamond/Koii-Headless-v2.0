@@ -58,7 +58,25 @@ all:
     koii-headless-v2.0:
       ansible_host: 192.168.1.10
 ```
+### Make sure that your User has ssh permissions to execute Playbook files!
+Debug the SSH Connection
+```
+ssh -v user@hostname(IP)
+```
+Check the sshd Configuration
+For this, check the /etc/ssh/sshd_config file for the following lines:
 
+PasswordAuthentication yes
+PubkeyAuthentication yes
+```
+sudo nano /etc/ssh/sshd_config
+
+sudo service ssh restart
+```
+How do I check the permissions and ownership of the authorized_keys file
+```
+ls -l ~/.ssh/authorized_keys
+```
 ### Execute the Playbook
 Switch into the Repo and exectute the command 'ansible-playbook playbook.yml'
 ```
