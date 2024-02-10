@@ -55,7 +55,7 @@ nano inventory.yml
 
 all:
   hosts:
-    koii-headless-v2.0:
+    koii-headless:
       ansible_host: 192.168.1.10
 ```
 ### Make sure that your User has ssh permissions to execute Playbook files!
