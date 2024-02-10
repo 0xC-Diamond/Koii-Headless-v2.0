@@ -95,7 +95,7 @@ ansible-playbook -v playbook.yml -kK
 ### NB! First of all initially created file are called '.env.local.example', run the commands to rename to match the configuration and then adjust the file as in guide.
 ```
 cd koii-node
-.env.local.example mv .env-local
+mv .env.local.example .env-local
 nano .env-local
 ```
 ## Create a wallet and top up with some KOII from the faucet OR use existing wallet key file(id.json)
