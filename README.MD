@@ -98,7 +98,7 @@ cd koii-node
 .env.local.example mv .env-local
 nano .env-local
 ```
-## Create a wallet and top up with some KOII from the faucet
+## Create a wallet and top up with some KOII from the faucet OR use existing wallet key file(id.json)
 Suggest to use guide here: https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS#set-up-new-koii-pubkey
 
 Then you will have your new pubkey, **transfer some tokens to this account using [Finnie Wallet](https://chromewebstore.google.com/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj)** or get couple of $KOII Tokens from the Faucet.
