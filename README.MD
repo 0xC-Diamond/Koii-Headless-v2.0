@@ -87,7 +87,7 @@ sudo reboot
 Switch into the Repo and exectute the command 'ansible-playbook playbook.yml'
 ```
 cd Koii-Headless-v2.0
-ansible-playbook playbook.yml
+ansible-playbook playbook.yml -kK
 ```
 ## And Now?
 - Update the '.env-local File like its described here https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS under section: "2.Configure Environment Variables: "
