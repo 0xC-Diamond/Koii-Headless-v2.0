@@ -164,7 +164,7 @@ koii address
 
 Task name	Task ID
 
-*Free Token Task!*	AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3 -> NEW Task ID from 15.02.2024= 6GbpHRK3duDbo3dCEFXuJ2KD5Hg6Yo4A9LyHozeE7rjN
+*Free Token Task!*	~AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3~ -> NEW Task ID from 15.02.2024= 6GbpHRK3duDbo3dCEFXuJ2KD5Hg6Yo4A9LyHozeE7rjN
 
 *Arweave Verifier*	BwwkRHB1GVWvVDbdXfUobRFLfz7wz6tz2u2W8mKCUjsj
 
