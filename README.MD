@@ -142,13 +142,13 @@ create-task-cli
 ### Example how to claim rewards from the "Free Token Task!"
 ```
 Calling ClaimReward
-✔ Enter the task id … AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3
+✔ Enter the task id … 6GbpHRK3duDbo3dCEFXuJ2KD5Hg6Yo4A9LyHozeE7rjN
 ✔ Enter the stakePotAccount address … FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d
 ✔ Enter the beneficiaryAccount address (Address that the funds will be transferred to) … 5aU9fdhjpe2sZKzZ858tV1ZDGjht1Q1UQewEphdo5meZ
 ✔ Enter the path to Claimer wallet … /home/koii/koii-node/namespace/staking_wallet.json
 Success
 ```
-AXcd6MctmDUQo3XDeBNa4NBAi4tfBYDpt4Adxyai3Do3 represents the Task ID   
+6GbpHRK3duDbo3dCEFXuJ2KD5Hg6Yo4A9LyHozeE7rjN represents the Task ID   
 FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID   
 5aU9fdhjpe2sZKzZ858tV1ZDGjht1Q1UQewEphdo5meZ represents the Wallet that will receive the claimed Coins   
 /home/koii/koii-node/namespace/staking_wallet.json represents the default path to your staking wallet   
