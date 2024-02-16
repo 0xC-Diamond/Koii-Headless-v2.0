@@ -63,14 +63,20 @@ Debug the SSH Connection
 ```
 ssh -v user@hostname(IP)
 ```
-Check the sshd Configuration
-For this, check the /etc/ssh/sshd_config file for the following lines:
+Generate a new key if you do not have one already defined.
+```
+ssh-keygen -t rsa -b 4096
+```
+Check the sshd Configuration have you allowed Password authentification:
 
-PasswordAuthentication yes
-PubkeyAuthentication yes
+For this, check the /etc/ssh/sshd_config file for the following lines:
 ```
 sudo nano /etc/ssh/sshd_config
+```
+PasswordAuthentication yes
+PubkeyAuthentication yes
 
+```
 sudo service ssh restart
 ```
 How do I check the permissions and ownership of the authorized_keys file
