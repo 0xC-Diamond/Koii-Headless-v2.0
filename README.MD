@@ -73,7 +73,9 @@ For this, check the /etc/ssh/sshd_config file for the following lines:
 ```
 sudo nano /etc/ssh/sshd_config
 ```
+Set these variables (uncomment if commented = remove # in beginning of the line)
 PasswordAuthentication yes
+
 PubkeyAuthentication yes
 
 ```
