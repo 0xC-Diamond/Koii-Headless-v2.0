@@ -111,7 +111,9 @@ Now adjust the file according to the Running-on-VPS guide!
 
 ## Create a wallet and top up with some KOII from the faucet OR use existing wallet key file(id.json)
 Suggest to use guide here: https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS#set-up-new-koii-pubkey
-
+```
+koii config set --url https://testnet.koii.live
+```
 Then you will have your new pubkey, **transfer some tokens to this account using [Finnie Wallet](https://chromewebstore.google.com/detail/finnie/cjmkndjhnagcfbpiemnkdpomccnjblmj)** or get couple of $KOII Tokens from the Faucet.
 
 *Suggestion*: Use some FileManager to connect to your VPS and download id.json file and make an “Import a key file” in the Finnie Wallet settings page. In order to have your Main node wallet right in front of you if you would like to check the Balance/Transfer KOII without going into the VPS server.
