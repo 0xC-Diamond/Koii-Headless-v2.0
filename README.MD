@@ -164,7 +164,6 @@ FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID
 5aU9fdhjpe2sZKzZ858tV1ZDGjht1Q1UQewEphdo5meZ represents the Wallet that will receive the claimed Coins   
 /home/koii/koii-node/namespace/staking_wallet.json represents the default path to your staking wallet   
 
-```
 ### Example how to Unstake from the "Free Token Task!"
 ```
 1. Calling Withdraw staked funds from task
