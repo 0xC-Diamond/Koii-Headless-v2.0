@@ -164,6 +164,26 @@ FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID
 5aU9fdhjpe2sZKzZ858tV1ZDGjht1Q1UQewEphdo5meZ represents the Wallet that will receive the claimed Coins   
 /home/koii/koii-node/namespace/staking_wallet.json represents the default path to your staking wallet   
 
+```
+### Example how to Unstake from the "Free Token Task!"
+```
+1. Calling Withdraw staked funds from task
+✔ Enter the task id … 6GbpHRK3duDbo3dCEFXuJ2KD5Hg6Yo4A9LyHozeE7rjN
+✔ Enter the path to Claimer wallet … /home/koii/koii-node/namespace/staking_wallet.json
+Gives error but don't worry, follow on with next step ->
+
+2.Calling ClaimReward
+✔ Enter the task id … 6GbpHRK3duDbo3dCEFXuJ2KD5Hg6Yo4A9LyHozeE7rjN
+✔ Enter the stakePotAccount address … stakepotaccountUSDX2sDSAcq8ZEvA3Tiv7tRpJ1Dv
+✔ Enter the beneficiaryAccount address (Address that the funds will be transferred to) … YOUR-ADDRESS
+✔ Enter the path to Claimer wallet … /home/koii/koii-node/namespace/staking_wallet.json
+Success
+```
+6GbpHRK3duDbo3dCEFXuJ2KD5Hg6Yo4A9LyHozeE7rjN represents the Task ID   
+stakepotaccountUSDX2sDSAcq8ZEvA3Tiv7tRpJ1Dv represents the Stake Pot Account    
+YOUR-ADDRESS represents the Wallet that will receive the claimed Coins   
+/home/koii/koii-node/namespace/staking_wallet.json represents the default path to your staking wallet 
+
 ## Additional helpful commands you should know
 ```
 koii -u https://testnet.koii.live balance
