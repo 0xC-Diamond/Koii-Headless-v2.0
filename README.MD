@@ -168,7 +168,7 @@ FnQm11NXJxPSjza3fuhuQ6Cu4fKNqdaPkVSRyLSWf14d represents the Task Creator ID
 ```
 1. Calling Withdraw staked funds from task
 ✔ Enter the task id … 6GbpHRK3duDbo3dCEFXuJ2KD5Hg6Yo4A9LyHozeE7rjN
-✔ Enter the path to Claimer wallet … /home/koii/koii-node/namespace/staking_wallet.json
+✔ Enter the submitter wallet path address … /home/koii/koii-node/namespace/staking_wallet.json
 Gives error but don't worry, follow on with next step ->
 
 2.Calling ClaimReward
