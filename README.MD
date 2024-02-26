@@ -99,7 +99,7 @@ cd Koii-Headless-v2.0
 ansible-playbook -v playbook.yml -kK
 ```
 ## And Now?
-- Update the '.env-local File like its described here https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS under section: "2.Configure Environment Variables: "
+- Update the `.env-local` File like its described here in the https://github.com/koii-network/VPS-task check the file itself: `.env-local` also pause on the video if needed.
 
 ### NB! First of all initially created file are called '.env.local.example', run the commands to rename to match the configuration and then adjust the file as in guide.
 ```
