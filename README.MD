@@ -99,15 +99,14 @@ cd Koii-Headless-v2.0
 ansible-playbook -v playbook.yml -kK
 ```
 ## And Now?
-- Update the `.env-local` File like its described here in the https://github.com/koii-network/VPS-task check the file itself: `.env-local` also pause on the video if needed.
+- Update the `.env-local` File like its described here in the https://github.com/koii-network/task-template check the file itself: `.env-local` also pause on the video if needed.
 
-### NB! First of all initially created file are called '.env.local.example', run the commands to rename to match the configuration and then adjust the file as in guide.
+### NB! First of all initially created file are called '.env.local.example', run the commands to rename to match the configuration and then adjust the file accordingly.
 ```
 cd koii-node
 mv .env.local.example .env-local
 nano .env-local
 ```
-Now adjust the file according to the Running-on-VPS guide!
 
 ## Create a wallet and top up with some KOII from the faucet OR use existing wallet key file(id.json)
 Suggest to use guide here: https://docs.koii.network/run-a-node/task-nodes/Running-on-VPS#set-up-new-koii-pubkey
