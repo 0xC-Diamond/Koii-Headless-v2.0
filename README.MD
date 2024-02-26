@@ -142,13 +142,13 @@ create-task-cli
 ```
 ```
 ? Select operation › - Use arrow-keys. Return to submit.
-❯   Create a new task
-    update existing task
-    Activate/Deactivate task
+❯   Create a new task - **DO NOT INTERACT all the changes should be made in .env-local configuration file!**
+    update existing task - **DO NOT INTERACT all the changes should be made in .env-local configuration file!**
+    Activate/Deactivate task - **DO NOT INTERACT all the changes should be made in .env-local configuration file!**
     Claim reward
-    Fund task with more KOII
+    Fund task with more KOII - **DO NOT INTERACT all the changes should be made in .env-local configuration file!**
     Withdraw staked funds from task
-    upload assets to IPFS(metadata/local vars)
+    upload assets to IPFS(metadata/local vars) - **DO NOT INTERACT all the changes should be made in .env-local configuration file!**
 ```
 ### Example how to claim rewards from the "Free Token Task!"
 ```
