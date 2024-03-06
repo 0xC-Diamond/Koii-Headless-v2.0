@@ -86,6 +86,10 @@ How do I check the permissions and ownership of the authorized_keys file
 ```
 ls -l ~/.ssh/authorized_keys
 ```
+If need to give correct permission: 600 means you can read and write the file or directory and other users have no access to it.
+```
+sudo chmod 600 ~/.ssh/authorized_keys
+```
 If you have configured and allowed the ssh for the user, try reboot the server first
 ```
 sudo reboot
